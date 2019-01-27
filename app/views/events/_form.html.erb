@@ -17,6 +17,11 @@
   </div>
 
   <div class="field">
+    <%= form.label :category %>
+    <%= form.select :category, enum_option_pairs(Event, :category) %>
+  </div>
+
+  <div class="field">
     <%= form.label :place %>
     <%= form.text_field :place %>
   </div>
@@ -39,10 +44,6 @@
   <div class="field">
     <%= form.label :is_in_person %>
     <%= form.check_box :is_in_person %>
-  </div>
-
-  <div class="field">
-    <%= form.select :category, enum_option_pairs(Event, :category) %>
   </div>
 
   <div class="actions">
