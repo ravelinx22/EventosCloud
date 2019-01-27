@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  place: MyString
+  address: MyString
+  start_date: 2019-01-26
+  end_date: 2019-01-26
+  is_in_person: false
+
+two:
+  name: MyString
+  place: MyString
+  address: MyString
+  start_date: 2019-01-26
+  end_date: 2019-01-26
+  is_in_person: false
